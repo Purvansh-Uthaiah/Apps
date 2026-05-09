@@ -21,7 +21,7 @@ if unit == 'U.S units':
      height_in = st.selectbox("Inches", list(range(0,12)))
     weight_lb = st.number_input(label="Weight in pounds ", value= 140)
     height = (height_ft)*12 + height_in
-    if st.button("Calculate BMI"):find ~ -name "strm.py" 2>/dev/null
+    if st.button("Calculate BMI"):
         bmi_val = (((weight_lb)/(height)**2)*703)
         st.write(f"Your BMI is :", {bmi_val})
 
