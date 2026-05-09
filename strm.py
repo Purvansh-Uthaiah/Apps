@@ -60,3 +60,5 @@ fig = go.Figure(go.Indicator(
     }
 ))
 st.plotly_chart(fig)
+#This is the link for the app I created through this code. Use it Now
+https://purvansh-bmi-calculator.streamlit.app/
